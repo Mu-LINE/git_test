@@ -1,0 +1,44 @@
+body{
+    position: static;
+    margin: 0 auto;
+    height: 800px;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 150px;
+    border: solid 5px #ffa500;
+    box-shadow: 0.1em 0.1em #cd853f;
+    background-color: #fff;
+}
+
+header button{
+    padding: 3%;
+}
+
+.header-contents{
+    display: inline-block;
+    border: solid 1px #000;
+    /* height: 100%; */
+}
+
+#cvs{
+    text-align: center;
+}
+
+
+main{
+    padding-top: 160px;
+    width: 100%;
+    border: solid 5px #00f;
+    box-shadow: 0.1em 0.1em #00008b;
+}
+
+footer{
+    width: 100%;
+    padding-top: 160px;
+    border: solid 5px #ffa500;
+    box-shadow: 0.1em 0.1em #cd853f;
+
+}
