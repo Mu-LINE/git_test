@@ -1,0 +1,38 @@
+<DOCTYPE HTML5>
+<html>
+<head>
+    <title>カバーをツクろう！ -kabatuku!-</title>
+    <link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+<body>
+    <header>
+        <div class="header-contents">
+            <h3>1.背景画像を選択しよう！</h3>
+            <input type="file" id="selectFile" accept=".png,.jpeg"> <!--拡張子 PNG, JPEG-->
+        </div>
+        <div class="header-contents">
+            <h3>2.本のタイトルを入れよう！</h3>
+            <textarea id="title-text" name="title-text"></textarea>
+            <button id="title-btn">タイトルをいれる</button>
+        </div>
+        <div class="header-contents">
+            <h3>3.作者の名前を入れよう！</h3>
+            <textarea id="author-text"></textarea>
+            <button id="author-btn">著者名をいれる</button>
+        </div>
+        <div class="header-contents">
+            <h3>4.描画しよう！</h3>
+
+        </div>
+    </header>
+    <main>
+        <div id="cvs">
+            <canvas id="canvas" style="width: auto; height: 600px;"></canvas>
+        </div>
+    </main>
+    <footer>
+        <a href="start.html">入口へ戻る</a>
+    </footer>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
